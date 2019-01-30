@@ -6,7 +6,7 @@
 /*   By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/22 17:24:38 by zoulhafi          #+#    #+#             */
-/*   Updated: 2019/01/23 13:21:13 by zoulhafi         ###   ########.fr       */
+/*   Updated: 2019/01/29 20:05:11 by zoulhafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -132,7 +132,7 @@ void				ft_lstrev(t_list **begin_list);
 void				ft_lstadd_end(t_list **alst, t_list *new);
 void				ft_lstcontent_iter(t_list *lst, void (*f)(void *elem));
 void				ft_lstsort(t_list **begin_list, int (*cmp)());
-int					ft_lstlen(t_list *lst);
+size_t				ft_lstlen(t_list *lst);
 
 /*
 ** Other Functions

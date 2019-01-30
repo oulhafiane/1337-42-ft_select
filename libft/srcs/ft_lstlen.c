@@ -6,15 +6,15 @@
 /*   By: zoulhafi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/08 15:44:07 by zoulhafi          #+#    #+#             */
-/*   Updated: 2019/01/08 17:27:58 by zoulhafi         ###   ########.fr       */
+/*   Updated: 2019/01/29 20:04:58 by zoulhafi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_lstlen(t_list *lst)
+size_t	ft_lstlen(t_list *lst)
 {
-	int		count;
+	size_t	count;
 
 	count = 0;
 	while (lst)
