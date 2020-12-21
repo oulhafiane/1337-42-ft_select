@@ -1,3 +1,4 @@
+[![42 Profile Card](https://1337-readme.vercel.app/api/profile?cursus=42cursus&login=zoulhafi)](https://github.com/mohouyizme/1337-readme)
 # 1337-42-ft_select
 Some programs, such as your shell, aptitude, top, tig, mcabber, dwarf fortress, zangband or herrie have at least two things in common: Firstly these programs are all executed in a terminal and secondly they all offer an advanced user interface despite the fact that they don’t offer the Microsoft Windows and OSX’s windowed graphic interface that you have come to expect.
 
@@ -9,6 +10,3 @@ Your terminal manages many things for you without you noticing, such as for inst
 If, by now, you are asking yourself how you can control your terminal, this project is made for you. You will learn to configure your terminal via the "struct termios" structure as well as to use its technical capabilities, the distinguished "termcaps".
 
 For more information on the project, [click here]()
-
-## Status
-On Progress...
